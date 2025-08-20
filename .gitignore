@@ -1,0 +1,29 @@
+form
+# ---------------------------------------------------------------------
+
+# Local .terraform directories
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude the Terraform lock file (it can be regenerated)
+.terraform.lock.hcl
+
+# Override files (used for local-only overrides)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive/auto-loaded variable files
+
+*.auto.tfvars
+
+# plan output (binary files)
+*.tfplan
+
